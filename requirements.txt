@@ -1,0 +1,22 @@
+# ─── Core PDF & text processing ───────────────────────────────────────────────
+pypdf>=4.3.1              # Extract text page-by-page from PDFs
+
+# ─── Embeddings (always local, never calls an API) ─────────────────────────────
+sentence-transformers>=3.0.1   # all-MiniLM-L6-v2 embedding model
+
+# ─── Vector search ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0          # Cosine-similarity search via IndexFlatIP
+
+# ─── LLM providers ─────────────────────────────────────────────────────────────
+google-genai>=1.5.0       # Official Google Gemini SDK
+openai>=1.30.0            # OpenAI-compatible SDK (Groq, Cerebras, OpenRouter, Ollama)
+
+# ─── UI ─────────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ─── Configuration ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.1      # Load .env into environment variables
+
+# ─── Testing ─────────────────────────────────────────────────────────────────────
+pytest>=8.2.0
+pytest-mock>=3.14.0       # Convenient mocker fixture for mocking in tests
