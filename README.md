@@ -247,3 +247,4 @@ Keys in `.env` are loaded by `python-dotenv` and accessed only through `config.p
 - **Built an end-to-end RAG chatbot** in Python (Streamlit + FAISS + sentence-transformers) that answers questions grounded only in user-uploaded PDFs, with source citations (file, page, similarity score)
 - **Designed a multi-provider LLM fallback system** (Gemini, Groq, Cerebras, OpenRouter, Ollama) with rate-limit detection, 60-second cooldown, and automatic retrieval-only degradation — ensuring zero downtime when any free-tier limit is hit
 - **Implemented a privacy-first architecture**: embeddings and retrieval always run locally (no data sent to APIs), offline mode routes exclusively through a local Ollama model, and session-only key injection prevents API credentials from ever being written to disk
+"# new-projects" 
